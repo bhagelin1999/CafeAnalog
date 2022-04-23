@@ -1,0 +1,28 @@
+
+.center {
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.centerVertical {
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.white {color: white}
+
+.brown {background-color:#7d4212}
+
+div.image::before {
+    content:url(https://cdn.discordapp.com/attachments/950338352618549268/967451617223933992/unknown.png);
+}​
+
+ .finishedOrder {
+     background-image: url(https://cdn.discordapp.com/attachments/950338352618549268/967451617223933992/unknown.png);
+     background-size: cover;
+ }
