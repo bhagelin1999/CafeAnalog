@@ -38,6 +38,19 @@
 .producttable {
     box-sizing: border-box;
 }
+
+.buttonGreen {
+    padding: 10px;
+    background-color: rgb(193, 234, 161);
+    border: none;
+    font-size: 20px;
+    width: 222px;
+    height: 60px;
+}
+
+.buttonGreen:hover {
+    background-color: rgb(200, 240, 169);
+}
 /* Productcard */
 .productcard {
     box-sizing: border-box;
