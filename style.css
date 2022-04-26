@@ -270,6 +270,58 @@ body {margin:0px;}
     right: 5%;
 }
 
+.center {
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.centerVertical {
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.white {color: white}
+
+.brown {background-color:#7d4212}
+
+div.image::before {
+    content:url(https://cdn.discordapp.com/attachments/950338352618549268/967451617223933992/unknown.png);
+}​
+
+ .finishedOrder {
+     background-image: url(https://cdn.discordapp.com/attachments/950338352618549268/967451617223933992/unknown.png);
+     background-size: cover;
+ }
+
+.thankYouCenter {
+
+    position:  absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+}
+
+.thanksMSG{
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+    margin: auto;
+    width: 35%;
+    height: 20%;
+}
+
+.receiptPageImageWidth {
+    width: 98%;
+}
+
 @media(min-width:481px) and (max-width:768px) {
     /* Menupage */
     .productcard {
@@ -392,6 +444,10 @@ body {margin:0px;}
         width: 900px;
         margin-top: 120px;
         height: 1400px;
+    }
+
+    .receiptPageImageWidth {
+        width: 50%;
     }
 
 }
