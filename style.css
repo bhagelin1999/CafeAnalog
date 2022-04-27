@@ -311,17 +311,7 @@ div.image::before {
      background-size: cover;
  }
 
-.thankYouCenter {
-
-    position:  absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-
-}
-
-.thanksMSG{
+.receiptImageBox {
     left: 0;
     right: 0;
     top: 50%;
@@ -329,10 +319,71 @@ div.image::before {
     margin: auto;
     width: 35%;
     height: 20%;
+    background-color: grey;
+    position: absolute;
+    margin:auto;
+    font-size-sm: 1.6rem;
 }
 
 .receiptPageImageWidth {
     width: 98%;
+}
+
+.topMarginOnePercent {
+    margin-top: 1%;
+}
+
+.rowMargins {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.colMargins {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.receiptColOneMargins {
+    margin-left: 18%;
+    margin-bottom: 1%;
+}
+
+.receiptColThreeMargins {
+    margin-left: 18%;
+    margin-bottom: 1%;
+}
+
+.receiptTotalAmountMargins {
+    margin-left: 18%;
+    margin-bottom: 5%;
+}
+
+.orderNumberMargins {
+    margin-left: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.cafeAnalogCopenhagenText {
+    margin-left: 25%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.containerBackgroundColor {
+    background-color:#7d4212;
+}
+
+.receiptImageContainer {
+    position: relative;
+    text-align: center;
+}
+
+.receiptBackHomeBox {
+    background-color:#9F8383;
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 @media(min-width:481px) and (max-width:768px) {
